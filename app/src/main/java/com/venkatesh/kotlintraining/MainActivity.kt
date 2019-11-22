@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         ControlFlow(10,20).whenExpression(9)
+        Loops().forLoop()
     }
 
 }
